@@ -5,9 +5,9 @@ WORKING_DIR=$1
 cd $WORKING_DIR
 
 # location of toolchain
-TOOLCHAIN=c:/Projects/esp8266/tools/xtensa-lx106-elf/bin
+TOOLCHAIN=c:/Projects/esp8266/xtensa-lx106-elf/bin
 # location esp8266 sdk
-SDK=c:/Projects/esp8266/Espressif/ESP8266_SDK
+SDK=c:/Projects/esp8266/esp_iot_sdk_v0.9.3
 INCDIR='-Iinclude'
 #path to esptool in cygwin environment
 ESPTOOL=/bin/esptool
